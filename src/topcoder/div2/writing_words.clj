@@ -1,10 +1,10 @@
 (ns topcoder.div2.writing_words)
 
-(defn A-to-Z []
+(defn A->Z []
   (range (int \A) (inc (int \Z))))
 
 (def alpha-and-num-map
-  (zipmap (A-to-Z) (range 1 27)))
+  (zipmap (A->Z) (range 1 27)))
 
 (defn write [s]
   (let [nums (map int (seq s))]
