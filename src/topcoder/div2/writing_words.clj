@@ -1,7 +1,7 @@
 (ns topcoder.div2.writing_words)
 
 (defn A-to-Z []
-  (map int (range (int \A) (inc (int \Z)))))
+  (range (int \A) (inc (int \Z))))
 
 (def alpha-and-num-map
   (zipmap (A-to-Z) (range 1 27)))
