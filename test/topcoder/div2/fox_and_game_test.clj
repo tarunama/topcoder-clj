@@ -4,4 +4,5 @@
 
 (deftest test-fox-and-game
   (is (= (count-stars '("ooo" "ooo")) 6))
-  (is (= (count-stars '("xxo" "xxx")) 1)))
+  (is (= (count-stars '("xxo" "xxx")) 1))
+  )

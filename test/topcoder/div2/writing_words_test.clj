@@ -2,9 +2,7 @@
   (:require [clojure.test :refer :all]
             [topcoder.div2.writing_words :refer :all]))
 
-
-(deftest writing-test []
-  (is
-    (= (write "ABC") 6)
-    (= (write "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ") 1300)
-    ))
+(deftest writing-test
+  (is (= (write "ABC") 6))
+  (is (= (write "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ") 1300))
+  )

@@ -3,4 +3,5 @@
             [topcoder.div2.insideout :refer :all]))
 
 (deftest test-inside-out
-  (is (= (inside-out "I ENIL SIHTHSIREBBIG S") "THIS LINE IS GIBBERISH")))
+  (is (= (inside-out "I ENIL SIHTHSIREBBIG S") "THIS LINE IS GIBBERISH"))
+  )
