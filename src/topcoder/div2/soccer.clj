@@ -2,6 +2,7 @@
 
 ; problem description
 ; https://community.topcoder.com/stat?c=problem_statement&pm=1650
+; TODO: 例外処理の追加
 
 (defn calc-points [win tie]
   (apply + [(* win 3) tie]))

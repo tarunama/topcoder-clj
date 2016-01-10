@@ -2,6 +2,8 @@
   (:require [clojure.test :refer :all]
             [topcoder.div2.soccer :refer :all]))
 
+; TODO: 例外処理の追加
+
 (deftest test-soccer
   (is (= (max-points [1,4,3,0,0] [3,1,5,3,1]) 14))
   (is (= (max-points [12,45,20,17,48,0] [48,10,53,94,0,100]) 145))
